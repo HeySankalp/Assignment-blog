@@ -1,0 +1,98 @@
+/* =========================Recent post section=================== */
+
+.recentPostSection{
+    background-color: #EDF7FA;
+   /* height: 60vh; */
+   padding: 30px 0px;
+   /* border: 2px solid black; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .recentHeading{
+    color: #21243d;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 75vw;
+    font-size: 26px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+  }
+  .recentPosts{
+    max-width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+  }
+  .recentPost{
+    width: 44%;
+    padding: 40px 25px;
+    background-color: white;
+    /* border: 2px solid grey; */
+  }
+  
+  .recentPost h1{
+    color: #21243d;
+  }
+  
+  .recentPost span{
+    color: #21243d;
+    font-size: 25px;
+  }
+  
+  .recentPost p{
+    font-size: 20px;
+  }
+  
+  .recentPostedOn{
+  
+    font-size: 26px;
+    margin: 40px 0px ;
+  }
+
+
+
+
+  @media only screen and (max-width: 850px) {
+
+    .recentPostSection{
+      margin: 0px;
+      /* border: 1px solid red; */
+      /* padding: 0px; */
+    }
+    .recentHeading{
+      width: 80%;
+      font-size: 20px;
+      margin-bottom: 15x;
+    }
+    .recentPosts{
+      /* border: 1px solid red; */
+      max-width: 90vw;
+      flex-direction: column;
+    }
+    .recentPost{
+      width: 95%;
+      margin-bottom: 10px;
+      padding: 7px 10px;
+    }
+    .recentPost h1{
+      font-size: 23px;
+      text-align: center;
+    }
+    .recentPostedOn{
+      margin: 20px 0px ;
+      /* border: 1px solid red; */
+      display: flex;
+      justify-content: center;
+    }
+    .recentPostedOn span{
+      font-size: 18px;
+      text-align: center;
+    }
+    .recentPost p{
+      font-size: 15px;
+      text-align: center;
+    }
+  }

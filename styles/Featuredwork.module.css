@@ -1,0 +1,138 @@
+/*=================================================== Featured section================================================ */
+ 
+.mainHeading{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 150px 0px;
+  margin-bottom: 30px;
+  color: #21243d;
+}
+
+
+.featuredSection{
+    max-width: 75vw;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  
+  .featuredSection h2{
+    font-weight: 400;
+    margin: 40px 0px;
+  }
+  
+  .featuredPosts{
+    /* border: 1px solid pink; */
+  }
+  
+  .featuredPost{
+    display: flex;
+  }
+  .featuredPost h1{
+    font-size: 40px;
+    color: #21243d;
+  }
+  
+  .imgCon{
+  overflow: hidden;
+  width: 375px;
+  height: 225px;
+  border-radius: 10px;
+  margin-right: 20px;
+  }
+  
+  .featuredContentTags{
+    display: flex;
+    margin: 25px 0px;
+    align-items: center;
+  }
+  
+  .tagTime{
+    background-color:  #142850;
+    color: white;
+    padding: 4px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-right: 40px;
+  }
+  
+  .tagName{
+    font-size: 24px;
+    font-weight: 500;
+    color: #8695A4;
+  }
+  
+  .featuredPost p{
+    /* border: 1px solid red; */
+    max-width: 800px;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  
+  .featuredPosts hr{
+    margin: 30px 0px;
+    color: rgb(205, 205, 205);
+  }
+
+  @media only screen and (max-width: 850px) {
+
+    .mainHeading{
+      margin: 30px 20px;
+      margin-top: 100px;
+    }
+
+    .featuredSection{
+      max-width: 100%;
+      align-items: center;
+    }
+
+    .featuredSection h2{
+      font-weight: 400;
+      margin: 30px 0px;
+    }
+    .featuredPosts{
+      /* border: 1px solid blue; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .featuredPost{
+      width: 100%;
+      flex-direction: column;
+      /* border: 1px solid red; */
+      align-items: center;
+    }
+    .imgCon{
+      overflow: hidden;
+      width: 90%;
+      height: 225px;
+      border-radius: 10px;
+      margin: 0;
+      }
+    .featuredPostMiddle{
+      /* border: 1px solid red; */
+      margin: 0px 20px;
+    }
+
+    .featuredPostMiddle h1{
+      margin-top: 10px;
+      font-size: 25px;
+    }
+    .featuredContentTags{
+      margin: 15px 0px;
+    }
+    .tagTime{
+      font-size: 18px;
+    }
+    .tagName{
+      font-size: 18px;
+    }
+
+    .featuredPost p{
+      font-size: 17px;
+    }
+
+
+  }

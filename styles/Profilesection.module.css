@@ -1,0 +1,122 @@
+/*========================== profile info section syles===================== */
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 75vw;
+    min-height: 100vh;
+    margin: 0px auto;
+  }
+  
+  .profileInfoUpper {
+    /* border: 1px solid blue; */
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .upperInfoText {
+    /* border: 1px solid grey; */
+    width: 50%;
+  }
+  .upperInfoText h1{
+    margin: 15px 0px;
+    font-size: 54px;
+    color: #21243d;
+  }
+  .upperInfoText p{
+    font-weight: 400;
+    margin: 35px 0px;
+    font-size: 20px;
+    color: #21243d;
+  }
+  
+  .upperInfoImage {
+    position: relative;
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+  }
+  .image{
+    border-radius: 150px;
+  }
+   
+  .upperInfoImage::before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    right: 15px;
+    top: 15px;
+    background-color: #EDF7FA;
+    border-radius: 150px;
+  }
+  
+  .resumeBtn{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 20px;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 3px;
+  }
+
+
+  @media only screen and (max-width: 850px) {
+
+    .profileInfo{
+      align-items: center;
+    }
+     .profileInfoUpper{
+      width: 100%;
+      /* border: 1px solid red; */
+      margin-top: 125px;
+      align-items: center;
+      flex-direction: column-reverse;
+     }
+     .upperInfoText {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+     .upperInfoText h1{
+      font-size: 25px;
+      width: 100%;
+      text-align: center;
+      /* border: 2px solid red;      */
+    }
+    .upperInfoText p{
+      width: 100%;
+      text-align: center;
+      /* border: 2px solid red; */
+      margin: 20px 0px;
+      font-size: 20px;
+      color: #21243d;
+    }
+     .upperInfoImage {
+      width: 200px;
+      height: 200px;
+    }
+    .upperInfoImage::before{  
+      width: 200px;
+      height: 200px;
+      top: 10px;
+      right: 10px;
+    }
+
+
+
+    .resumeBtn{
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      padding: 10px 15px;
+      background-color: #FF6464;
+      border: none;
+      border-radius: 3px;
+    }
+
+  }

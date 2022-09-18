@@ -1,0 +1,95 @@
+/*========================== header navbar styles========================== */
+.header {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  height: 100px;
+  box-shadow: 0px 5px 15px rgb(239, 239, 239);
+}
+.burger{
+  display: none;
+}
+
+.navbar {
+  background-color: rgb(248, 248, 248);
+  flex: 1;
+  /* border: 2px solid rgb(154, 154, 154); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.burgerNavbar{
+  display: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  color: #FF6464;
+}
+
+
+
+.li {
+  z-index: 1;
+  margin-right: 70px;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .header {
+    background-color: rgb(248, 248, 248);
+  }
+ .burgerNavbar{
+  position: fixed;
+  box-shadow: 0px 0px 10px rgb(109, 109, 109);
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: rgb(248, 248, 248);
+  right: 20px;
+  top: 75px;
+ }
+
+ .burger{
+  display: block;
+  font-size: 40px;
+  right: 30px;
+  top: 25px;
+  position: fixed;
+  z-index: 0;
+  color: #575757;
+ }
+
+ .burger:hover{
+  color: #FF6464;
+ }
+
+ .burgerNavbar a{
+  text-decoration: none;
+  color: black;
+ }
+
+
+  .navbar {
+   display:none ;
+  }
+
+  .burgerLi {
+    text-align: center;
+    margin: 20px 50px;
+  }
+
+  .burgerLi:hover{
+    color: #FF6464;
+  }
+
+}
